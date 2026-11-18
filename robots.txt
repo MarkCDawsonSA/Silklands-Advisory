@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://silklandsadvisory.co.uk/sitemap.xml

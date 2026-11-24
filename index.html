@@ -9,188 +9,186 @@
 <meta property="og:title" content="Silklands Advisory | Deal, Board &amp; Executive Advisory">
 <meta property="og:description" content="Senior judgement for the deals and decisions that matter most.">
 <meta property="og:url" content="https://www.silklandsadvisory.co.uk/">
-<meta property="og:image" content="https://www.silklandsadvisory.co.uk/apple-touch-icon.png">
+<meta property="og:image" content="https://silklandsadvisory.co.uk/hero-manchester.jpg">
 <link rel="canonical" href="https://www.silklandsadvisory.co.uk/">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
-  --green:#13241f; --green-2:#1b302a; --line-dark:#2f4740;
-  --cream:#f6f3ec; --white:#ffffff; --line:#ddd5c4;
-  --gold:#c9a76f;        /* accents on dark */
-  --gold-ink:#8a6a36;    /* small gold text on light (AA contrast) */
-  --gold-btn:#b08c54;
-  --ink:#1f2421; --ink-soft:#454b47;
-  --on-dark:#e9e5da; --on-dark-soft:#c9c5ba;
-  --serif:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --ink:#121417; --ink-2:#1c1f23; --ink-soft:#50565d; --muted:#7a8088;
+  --paper:#ffffff; --grey:#f3f4f5; --line:#e3e5e8; --line-dark:#2a2e33;
+  --accent:#2b4c7e; --accent-light:#8fb0d9;
+  --on-dark:#eef0f2; --on-dark-soft:#b9bec5;
   --sans:"Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
-  --wrap:1120px;
+  --head:"Inter Tight", "Inter", system-ui, sans-serif;
+  --wrap:1200px;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:72px}
-body{margin:0;font-family:var(--sans);font-size:17px;line-height:1.65;color:var(--ink);background:var(--cream);-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;font-family:var(--sans);font-size:17px;line-height:1.65;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
 a{color:inherit}
-.wrap{max-width:var(--wrap);margin:0 auto;padding:0 28px}
-h1,h2,h3{font-family:var(--serif);font-weight:500;margin:0;line-height:1.15}
-h2{font-size:clamp(32px,4vw,42px);margin-bottom:18px}
-h3{font-size:24px}
-.eyebrow{display:flex;align-items:center;gap:14px;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:16px}
-.eyebrow::after{content:"";width:40px;height:1px;background:currentColor;opacity:.6}
-.lead{max-width:none;font-size:18px;color:var(--ink-soft);margin:0}
-section{padding:96px 0}
-.dark{background:var(--green);color:var(--on-dark)}
-.dark .eyebrow{color:var(--gold)}
-.dark .lead{color:var(--on-dark-soft)}
-.white{background:var(--white)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 32px}
+h1,h2,h3,h4{font-family:var(--head);font-weight:600;margin:0;line-height:1.1;letter-spacing:-.02em}
+h2{font-size:clamp(32px,3.8vw,46px);margin-bottom:20px}
+h3{font-size:21px;line-height:1.28;letter-spacing:-.01em}
+.lead{font-size:18px;color:var(--ink-soft);margin:0}
+section{padding:104px 0}
 
 /* Header */
-header{position:sticky;top:0;z-index:10;background:var(--green);border-bottom:1px solid var(--line-dark)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--on-dark);font-family:var(--serif);font-size:23px;white-space:nowrap}
-.brand img{height:30px;width:auto}
-.brand span{color:var(--gold)}
-.nav ul{display:flex;gap:30px;list-style:none;margin:0;padding:0}
-.nav a.link{font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;color:var(--on-dark-soft)}
-.nav a.link:hover,.nav a.link:focus-visible{color:var(--gold)}
-.menu-btn{display:none;background:none;border:1px solid var(--line-dark);color:var(--on-dark);font:500 12px var(--sans);letter-spacing:.16em;text-transform:uppercase;padding:9px 14px;cursor:pointer}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:saturate(1.4) blur(6px)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);white-space:nowrap;font-family:var(--head);font-size:15px;font-weight:600;letter-spacing:.2em;text-transform:uppercase}
+.brand img{height:34px;width:auto}
+.brand span{font-weight:400;color:var(--muted)}
+.nav ul{display:flex;gap:30px;list-style:none;margin:0;padding:0;align-items:center}
+.nav a.link{font-size:14.5px;font-weight:500;text-decoration:none;color:var(--ink-soft)}
+.nav a.link:hover,.nav a.link:focus-visible{color:var(--ink)}
+.nav a.cta{font-size:14.5px;font-weight:600;text-decoration:none;color:#fff;background:var(--ink);padding:10px 18px}
+.nav a.cta:hover{background:var(--accent)}
+.menu-btn{display:none;background:none;border:1px solid var(--line);color:var(--ink);font:500 13px var(--sans);padding:9px 14px;cursor:pointer}
 
 /* Hero */
-.hero{text-align:center;padding:72px 0 104px}
-.hero .rule{width:1px;height:48px;background:var(--gold);margin:0 auto 36px;opacity:.7}
-.hero img{width:76px;margin:0 auto 30px}
-.hero .tag{font-size:13px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--on-dark-soft);margin-bottom:30px}
-.hero h1{font-size:clamp(38px,5.6vw,60px);color:#fff;max-width:840px;margin:0 auto 28px}
-.hero h1 em{color:var(--gold);font-style:italic}
-.hero p{max-width:840px;margin:0 auto 40px;font-size:18px;color:var(--on-dark-soft)}
-.btn{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;padding:16px 28px;transition:background .2s,color .2s}
-.btn-outline{border:1px solid var(--gold);color:var(--gold)}
-.btn-outline:hover{background:var(--gold);color:var(--green)}
-.btn-solid{background:var(--gold-btn);color:var(--green)}
-.btn-solid:hover{background:var(--gold)}
+.hero{position:relative;min-height:min(84vh,780px);display:flex;align-items:flex-end;padding:0;color:#fff;background:#1b1e22 url('hero-manchester.jpg') center 35%/cover no-repeat}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,12,14,.82) 0%,rgba(10,12,14,.55) 38%,rgba(10,12,14,.05) 75%),linear-gradient(90deg,rgba(10,12,14,.55) 0%,rgba(10,12,14,0) 60%)}
+.hero .wrap{position:relative;width:100%;padding-top:160px;padding-bottom:84px}
+.hero-copy{max-width:720px}
+.hero .kicker{font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#fff;opacity:.85;margin:0 0 20px}
+.hero h1{font-size:clamp(40px,5.2vw,68px);color:#fff;margin:0 0 24px;letter-spacing:-.03em}
+.hero p.intro{font-size:18.5px;color:#e4e6e9;margin:0 0 34px;max-width:640px}
+.hero .actions{display:flex;flex-wrap:wrap;gap:14px}
+.hero .caption{position:absolute;right:32px;bottom:20px;font-size:12px;color:rgba(255,255,255,.7)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:600;text-decoration:none;padding:15px 26px;transition:background .2s,color .2s,border-color .2s}
+.btn-solid{background:#fff;color:var(--ink)}
+.btn-solid:hover{background:var(--accent-light)}
+.btn-ghost{border:1px solid rgba(255,255,255,.6);color:#fff}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}
 
-/* Services */
-.services{display:grid;grid-template-columns:repeat(3,1fr);margin-top:52px;border:1px solid var(--line);background:var(--white)}
-.service{padding:38px 32px;border-right:1px solid var(--line)}
-.service:last-child{border-right:0}
-.num{font-family:var(--serif);font-size:30px;color:var(--gold-btn);margin-bottom:14px}
-.service h3{margin-bottom:12px}
-.for{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:18px;line-height:1.5}
-.service p{font-size:16px;color:var(--ink-soft);margin:0 0 20px}
-.service ul{list-style:none;padding:0;margin:0}
-.service li{font-size:15px;color:var(--ink-soft);padding:5px 0 5px 26px;position:relative;line-height:1.5}
-.service li::before{content:"";position:absolute;left:0;top:15px;width:14px;height:1px;background:var(--gold-btn)}
+/* Stats */
+.band{background:var(--paper);padding:0;border-bottom:1px solid var(--line)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:44px 28px 40px;border-left:1px solid var(--line)}
+.stat:first-child{border-left:0;padding-left:0}
+.stat b{display:block;font-family:var(--head);font-weight:600;font-size:46px;letter-spacing:-.03em;color:var(--ink);line-height:1;margin-bottom:12px}
+.stat span{font-size:14.5px;color:var(--ink-soft);line-height:1.45;display:block}
+.band .note-line{font-size:13px;color:var(--muted);padding:0 0 22px;margin:0}
 
-/* Track record */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);margin:48px 0 36px;border:1px solid var(--line-dark);background:var(--green-2)}
-.stat{padding:30px 18px;text-align:center;border-right:1px solid var(--line-dark)}
-.stat:last-child{border-right:0}
-.stat b{display:block;font-family:var(--serif);font-weight:500;font-size:40px;color:var(--gold);line-height:1.1;margin-bottom:8px}
-.stat span{font-size:14px;color:var(--on-dark-soft);line-height:1.45;display:block}
-.roles{border:1px solid var(--line-dark)}
-.role{display:grid;grid-template-columns:72px 1fr;padding:28px 32px 28px 0;border-bottom:1px solid var(--line-dark)}
-.role:last-child{border-bottom:0}
-.role .num{text-align:center;font-size:24px;color:var(--gold);margin:0}
-.role h3{color:#fff;font-size:24px;margin-bottom:8px}
-.role p{margin:0;font-size:16px;color:var(--on-dark-soft)}
+/* Section heads */
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:28px 64px;align-items:end;margin-bottom:52px;padding-top:28px;border-top:2px solid var(--ink)}
+.sec-head h2{margin:0}
 
 /* Deals */
-.deals{display:grid;grid-template-columns:repeat(3,1fr);margin-top:48px;border:1px solid var(--line);background:var(--white)}
-.deal{padding:32px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column}
-.deal:nth-child(3n){border-right:0}
-.deal:nth-last-child(-n+3){border-bottom:0}
-.deal .meta{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:12px}
-.deal h3{font-size:25px;margin-bottom:12px}
-.deal p{font-size:15px;color:var(--ink-soft);margin:0 0 20px;flex:1}
+.deals{display:grid;grid-template-columns:repeat(3,1fr);gap:48px 32px}
+.deal{display:flex;flex-direction:column}
+.deal-img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;background:var(--grey);margin-bottom:20px}
+.deal .body{display:flex;flex-direction:column;flex:1}
+.deal .meta{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+.deal h3{font-size:22px;margin-bottom:10px}
+.deal p{font-size:15.5px;color:var(--ink-soft);margin:0 0 16px;flex:1}
 .deal .src{display:flex;flex-wrap:wrap;gap:18px}
-.deal .src a{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--gold-ink);border-bottom:1px solid var(--gold-btn);padding-bottom:3px}
-.deal .src a:hover{color:var(--ink)}
-.deal-img{display:block;height:auto;width:calc(100% + 60px);max-width:none;margin:-32px -30px 24px;aspect-ratio:16/10;object-fit:cover;background:#ece6da}
-.deal-ph{width:calc(100% + 60px);margin:-32px -30px 24px;aspect-ratio:16/10;background:var(--green);display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-family:var(--serif);font-size:19px;line-height:1.35;color:var(--gold)}
-.note{font-size:14px;color:var(--ink-soft);margin-top:16px}
+.deal .src a{font-size:14px;font-weight:600;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--ink);padding-bottom:2px}
+.deal .src a:hover{color:var(--accent);border-color:var(--accent)}
+.note{font-size:14px;color:var(--muted);margin-top:28px}
+
+/* Services */
+.grey{background:var(--grey)}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.service{background:#fff;padding:36px 32px}
+.service h3{margin-bottom:8px;font-size:24px}
+.for{font-size:14.5px;color:var(--accent);font-weight:500;margin-bottom:16px;line-height:1.5}
+.service p{font-size:16px;color:var(--ink-soft);margin:0 0 20px}
+.service ul{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.service li{font-size:15px;color:var(--ink);padding:10px 0;border-bottom:1px solid var(--line);line-height:1.45}
+
+/* Track record */
+.roles{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+.role{padding:30px 0;border-top:1px solid var(--line)}
+.role:first-child{grid-column:1 / -1}
+.role h3{font-size:24px;margin-bottom:10px}
+.role p{margin:0;font-size:16px;color:var(--ink-soft)}
 
 /* How I work */
-.values{display:grid;grid-template-columns:1fr 1fr;gap:44px 56px;margin-top:48px}
-.value{border-top:1px solid var(--gold-btn);padding-top:24px}
-.value h3{margin-bottom:12px}
-.value p{margin:0;font-size:16px;color:var(--ink-soft)}
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+.value{border-top:2px solid var(--accent);padding-top:22px}
+.value h3{margin-bottom:10px;font-size:21px}
+.value p{margin:0;font-size:15.5px;color:var(--ink-soft)}
 
 /* About */
-.about{display:grid;grid-template-columns:1.25fr 1fr;gap:64px;align-items:start}
+.about{display:grid;grid-template-columns:1.25fr 1fr;gap:72px;align-items:start}
 .about p{font-size:17px;color:var(--ink-soft);margin:0 0 18px}
-.card{background:var(--white);border:1px solid var(--line);padding:24px}
-.card img{width:100%;aspect-ratio:1;object-fit:cover;background:#ece6da}
-.card h3{margin-top:22px;font-size:26px}
-.card .title{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-ink);margin-top:2px}
-.card .eyebrow{margin:26px 0 10px;font-size:12px}
-.card .eyebrow::after{flex:1}
-.career{list-style:none;padding:0;margin:0}
-.career li{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding:9px 10px;background:var(--cream);margin-bottom:4px}
+.card{background:var(--grey);padding:24px}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;background:#e7e9ec}
+.card h3{margin-top:22px;font-size:24px}
+.card .title{font-size:14px;font-weight:500;color:var(--accent);margin-top:4px}
+.card h4{font:600 14px var(--sans);color:var(--ink);margin:24px 0 10px;letter-spacing:0}
+.career{list-style:none;padding:0;margin:0;border-top:1px solid #d9dce0}
+.career li{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding:9px 0;border-bottom:1px solid #d9dce0}
 .career li b{font-weight:600}
 .career li span{color:var(--ink-soft);text-align:right}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
-.chip{font-size:13px;color:var(--ink-soft);border:1px solid var(--line);background:var(--cream);padding:5px 11px}
+.chip{font-size:13px;color:var(--ink-soft);border:1px solid #d9dce0;background:#fff;padding:5px 11px}
 .sectors{margin-top:48px}
-.sectors .chip{background:transparent;border-color:#cbbfa6;font-size:14px;padding:7px 14px}
+.sectors .chip{font-size:14px;padding:7px 14px;border-color:var(--line)}
 
 /* Contact */
-.contact{padding:24px 0 96px}
-.contact-box{background:var(--green);color:var(--on-dark);text-align:center;padding:72px 28px}
+.contact{padding:0}
+.contact-box{background:var(--ink);color:var(--on-dark);padding:100px 0}
+.contact-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:64px;align-items:center}
 .contact-box h2{color:#fff}
-.contact-box p{max-width:840px;margin:0 auto 34px;font-size:18px;color:var(--on-dark-soft)}
-.contact-links{display:flex;flex-direction:column;align-items:center;gap:18px}
-.contact-box .addr{font-size:16px;color:var(--gold);text-decoration:none}
-.contact-box .addr:hover{text-decoration:underline}
-.li-link{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--on-dark-soft);text-decoration:none;letter-spacing:.04em}
-.li-link:hover{color:var(--gold)}
+.contact-box p{margin:0;font-size:18px;color:var(--on-dark-soft)}
+.contact-links{display:flex;flex-direction:column;align-items:flex-start;gap:18px}
+.contact-box .btn-solid{background:#fff;color:var(--ink)}
+.contact-box .addr{font-size:18px;color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.4)}
+.contact-box .addr:hover{border-color:#fff}
+.li-link{display:inline-flex;align-items:center;gap:8px;font-size:15px;color:var(--on-dark-soft);text-decoration:none}
+.li-link:hover{color:#fff}
 .li-link svg{width:18px;height:18px;fill:currentColor}
 
 /* Footer */
-footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
+footer{background:var(--ink);color:var(--on-dark-soft);padding:0 0 40px}
+footer .wrap>.foot-top{border-top:1px solid var(--line-dark);padding-top:32px}
 .foot-top{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-bottom:24px;border-bottom:1px solid var(--line-dark);flex-wrap:wrap}
-.foot-top .brand{font-size:21px}
+footer .brand{color:#fff;font-size:14px}
+footer .brand span{color:var(--on-dark-soft)}
 .foot-top small{font-size:13px}
 .foot-top .li-link{font-size:13px}
-.legal{font-size:12.5px;line-height:1.7;margin:22px 0 0;color:#a9aea6}
+.legal{font-size:12.5px;line-height:1.7;margin:22px 0 0;color:#9aa0a8}
 
-:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 
-/* Responsive */
-@media (max-width:980px){
-  .services{grid-template-columns:1fr}
-  .service{border-right:0;border-bottom:1px solid var(--line)}
-  .service:last-child{border-bottom:0}
-  .deals{grid-template-columns:1fr 1fr}
-  .deal,.deal:nth-child(3n),.deal:nth-last-child(-n+3){border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .deal:nth-child(2n){border-right:0}
-  .deal:nth-last-child(-n+2){border-bottom:0}
+@media (max-width:1020px){
+  .services,.deals{grid-template-columns:1fr 1fr}
+  .values{grid-template-columns:1fr 1fr}
   .stats{grid-template-columns:1fr 1fr}
-  .stat:nth-child(2){border-right:0}
-  .stat:nth-child(-n+2){border-bottom:1px solid var(--line-dark)}
-  .about{grid-template-columns:1fr;gap:40px}
+  .stat:nth-child(3){border-left:0;padding-left:0}
+  .stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .about,.contact-grid,.sec-head{grid-template-columns:1fr;gap:24px}
   .card{max-width:440px}
 }
-@media (max-width:860px){
+@media (max-width:900px){
   .menu-btn{display:block}
-  .nav ul{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;background:var(--green);border-bottom:1px solid var(--line-dark);padding:8px 28px 18px}
+  .nav ul{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:1px solid var(--line);padding:8px 32px 20px}
   .nav ul.open{display:flex}
-  .nav ul li a.link{display:block;padding:12px 0;font-size:13px}
+  .nav ul li a{display:block;padding:12px 0;font-size:15px}
+  .nav a.cta{display:inline-block;margin-top:8px;padding:12px 16px}
 }
-@media (max-width:640px){
+@media (max-width:680px){
   body{font-size:16px}
-  section{padding:68px 0}
+  section{padding:72px 0}
   .wrap{padding:0 20px}
-  .deals{grid-template-columns:1fr}
-  .deal,.deal:nth-child(2n),.deal:nth-child(3n){border-right:0;border-bottom:1px solid var(--line)}
-  .deal:last-child{border-bottom:0}
-  .values{grid-template-columns:1fr;gap:32px}
-  .role{grid-template-columns:52px 1fr;padding-right:20px}
+  .brand{font-size:13px;letter-spacing:.16em}
+  .services,.deals,.roles,.values{grid-template-columns:1fr}
+  .role:first-child{grid-column:auto}
+  .hero{min-height:auto;background-position:center}
+  .hero::before{background:linear-gradient(0deg,rgba(10,12,14,.9) 0%,rgba(10,12,14,.7) 55%,rgba(10,12,14,.35) 100%)}
+  .hero .wrap{padding-top:180px;padding-bottom:60px}
+  .hero .caption{right:20px;bottom:12px}
+  .stat{padding:28px 14px 26px}
   .stat b{font-size:34px}
-  .hero{padding:56px 0 80px}
-  .contact-box{padding:56px 22px}
+  .contact-box{padding:72px 0}
 }
 </style>
 </head>
@@ -198,41 +196,117 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
 
 <header>
   <nav class="wrap nav" aria-label="Main">
-    <a class="brand" href="#top"><img src="logo.png" alt="" width="28" height="30">Silklands <span>Advisory</span></a>
+    <a class="brand" href="#top"><img src="logo-dark.png" alt="" width="32" height="34">Silklands <span>Advisory</span></a>
     <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
     <ul id="menu">
+      <li><a class="link" href="#deals">Deals</a></li>
       <li><a class="link" href="#services">Services</a></li>
       <li><a class="link" href="#track-record">Track record</a></li>
-      <li><a class="link" href="#deals">Deals</a></li>
       <li><a class="link" href="#approach">Approach</a></li>
       <li><a class="link" href="#about">About</a></li>
-      <li><a class="link" href="#contact">Contact</a></li>
+      <li><a class="cta" href="#contact">Get in touch</a></li>
     </ul>
   </nav>
 </header>
 
 <main id="top">
-
-<section class="dark hero">
+<section class="hero">
   <div class="wrap">
-    <div class="rule"></div>
-    <img src="logo.png" alt="Silklands Advisory" width="76" height="81">
-    <div class="tag">Deal, Board &amp; Executive Advisory</div>
-    <h1>Senior judgement for the deals and decisions <em>that matter most</em></h1>
-    <p>Nearly thirty years as a lawyer, dealmaker, operator and group CEO across real estate, leisure, technology and professional services. I work with a small number of UK and international investors, developers and growth businesses, as an adviser, executive or non-executive director.</p>
-    <a class="btn btn-outline" href="#contact">Start a conversation <span aria-hidden="true">&rarr;</span></a>
+    <div class="hero-copy">
+      <p class="kicker">Deal, board &amp; executive advisory</p>
+      <h1>Senior judgement for the deals and decisions that matter most</h1>
+      <p class="intro">Nearly thirty years as a lawyer, dealmaker, operator and group CEO across real estate, leisure, technology and professional services. I work with a small number of UK and international investors, developers and growth businesses, as an adviser, executive or non-executive director.</p>
+      <div class="actions">
+        <a class="btn btn-solid" href="#contact">Start a conversation <span aria-hidden="true">&rarr;</span></a>
+        <a class="btn btn-ghost" href="#deals">See the deals</a>
+      </div>
+    </div>
+  </div>
+  <span class="caption">Manchester city centre</span>
+</section>
+
+<section class="band" aria-label="Headline figures">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>£3bn+</b><span>GDV across 40+ site acquisitions</span></div>
+      <div class="stat"><b>c.£2bn</b><span>Development &amp; investment debt structured</span></div>
+      <div class="stat"><b>£1.5bn+</b><span>Institutional asset disposals</span></div>
+      <div class="stat"><b>150+</b><span>Directorships held across holding, operating, SPV, JV &amp; investment companies</span></div>
+    </div>
+    <p class="note-line">Highlights from transactions I've led and worked on.</p>
   </div>
 </section>
 
-<section id="services">
+<section id="deals">
   <div class="wrap">
-    <div class="eyebrow">What I do</div>
-    <h2>Three ways I work with clients</h2>
-    <p class="lead">Every engagement is senior-led and personal: you work with me directly, not with a team behind me. I take on a limited number of confidential mandates at any one time, so each one gets proper attention.</p>
+    <div class="sec-head"><h2>Deals in the public domain</h2><p class="lead">A sample of the Vita Group transactions I led and worked on, as reported at the time.</p></div>
+
+    <div class="deals">
+      <article class="deal">
+        <img class="deal-img" src="deal-circle-square.jpg" alt="Vita Living at Circle Square, Manchester" width="960" height="600" loading="lazy">
+        <div class="body">
+        <div class="meta">2017 · Joint venture</div>
+        <h3>Circle Square BTR with GMPF</h3>
+        <p>Joint venture with Greater Manchester Pension Fund to deliver 683 build-to-rent homes on the former BBC site off Oxford Road.</p>
+        <div class="src"><a href="https://www.placenorthwest.co.uk/vita-group-gmpf-net-126m-refinancing-deal/" target="_blank" rel="noopener">Place North West &rarr;</a></div>
+        </div>
+      </article>
+      <article class="deal">
+        <img class="deal-img" src="deal-dws.jpg" alt="Vita Student First Street, Manchester" width="960" height="600" loading="lazy">
+        <div class="body">
+        <div class="meta">2019 · Disposal</div>
+        <h3>£600m portfolio sale to DWS</h3>
+        <p>Eight Vita Student buildings with 3,198 beds in Manchester, Glasgow, Edinburgh, Leeds, Birmingham and Newcastle, with Vita retained as operator.</p>
+        <div class="src"><a href="https://www.placenorthwest.co.uk/manchester-student-blocks-sold-as-part-of-600m-portfolio/" target="_blank" rel="noopener">Place North West &rarr;</a></div>
+        </div>
+      </article>
+      <article class="deal">
+        <img class="deal-img" src="deal-mapletree.jpg" alt="Vita Student Portland Crescent, Leeds" width="960" height="600" loading="lazy">
+        <div class="body">
+        <div class="meta">2021 · Disposal</div>
+        <h3>£165m+ sale to Mapletree</h3>
+        <p>Four student assets with 917 beds in Exeter, Bristol, Leeds and Nottingham, sold to Singapore's Mapletree Investments.</p>
+        <div class="src"><a href="https://www.mapletree.com.sg/newsroom/mapletree-acquires-portfolio-of-four-student-housing-assets-in-uk-2/" target="_blank" rel="noopener">Mapletree &rarr;</a></div>
+        </div>
+      </article>
+      <article class="deal">
+        <img class="deal-img" src="deal-lewisham.jpg" alt="Vita Student Lewisham Exchange, London" width="960" height="600" loading="lazy">
+        <div class="body">
+        <div class="meta">2022 · Disposal</div>
+        <h3>Lewisham Exchange to AXA IM Alts</h3>
+        <p>Sale of Vita Student's 758-bed flagship London scheme, AXA IM Alts' first UK student accommodation acquisition.</p>
+        <div class="src"><a href="https://vitagroup.com/journal/vita-group-completes-sale-of-lewisham/" target="_blank" rel="noopener">Vita Group &rarr;</a></div>
+        </div>
+      </article>
+      <article class="deal">
+        <img class="deal-img" src="deal-madrid.jpg" alt="Vita Student residence in Madrid" width="960" height="600" loading="lazy">
+        <div class="body">
+        <div class="meta">2022–24 · Joint venture &amp; finance</div>
+        <h3>Madrid with Metrovacesa &amp; Cain</h3>
+        <p>Joint venture with Spain's leading developer for Vita's flagship Madrid student residence, funded by a €74m construction loan from Cain International.</p>
+        <div class="src"><a href="https://metrovacesa.com/en/blog/metrovacesa-and-vita-group-partner-to-develop-an-iconic-student-residence-in-madrid" target="_blank" rel="noopener">Metrovacesa &rarr;</a><a href="https://realassets.ipe.com/propertyeu/cain-expands-lending-platform-to-spanish-market-with-74m-construction-loan/10111741.article" target="_blank" rel="noopener">IPE Real Assets &rarr;</a></div>
+        </div>
+      </article>
+      <article class="deal">
+        <img class="deal-img" src="deal-barcelona.jpg" alt="Vita Student Pedralbes, Barcelona" width="960" height="600" loading="lazy">
+        <div class="body">
+        <div class="meta">2024 · Disposal</div>
+        <h3>Barcelona sale to Morgan Stanley</h3>
+        <p>Sale of Vita Student Pedralbes and Vita Student Poblenou, 624 beds in Barcelona, to a Morgan Stanley fund.</p>
+        <div class="src"><a href="https://www.iberian.property/news/residential/vita-group-sells-its-two-residences-in-barcelona-to-morgan-stanley-fund/" target="_blank" rel="noopener">Iberian Property &rarr;</a></div>
+        </div>
+      </article>
+    </div>
+    <p class="note">Links go to third-party press coverage.</p>
+  </div>
+</section>
+
+<section id="services" class="grey">
+  <div class="wrap">
+    <div class="sec-head"><h2>Three ways I work with clients</h2><p class="lead">Every engagement is senior-led and personal: you work with me directly, not with a team behind me. I take on a limited number of confidential mandates at any one time, so each one gets proper attention.</p></div>
 
     <div class="services">
       <article class="service">
-        <div class="num">I</div>
         <h3>A trusted UK lead for international investors</h3>
         <div class="for">For US &amp; overseas funds, family offices &amp; businesses</div>
         <p>One senior person on the ground who understands UK markets, deals and boardrooms, and acts in your interest.</p>
@@ -246,7 +320,6 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
         </ul>
       </article>
       <article class="service">
-        <div class="num">II</div>
         <h3>Real estate transactions</h3>
         <div class="for">For developers, investors &amp; operators</div>
         <p>Getting schemes funded, structured and exited, with someone who has done it as principal as well as adviser.</p>
@@ -261,7 +334,6 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
         </ul>
       </article>
       <article class="service">
-        <div class="num">III</div>
         <h3>Executive, non-executive &amp; board leadership</h3>
         <div class="for">For PE-backed &amp; founder-led businesses</div>
         <p>Hands-on leadership for growth, transition and change, on a fractional or interim basis. As a non-executive director or chair, I bring independent challenge, sound governance and investor confidence to the board.</p>
@@ -277,37 +349,27 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
   </div>
 </section>
 
-<section id="track-record" class="dark">
+<section id="track-record">
   <div class="wrap">
-    <div class="eyebrow">Track record</div>
-    <h2>Experience on every side of the table</h2>
-    <p class="lead">I've negotiated the deals, put capital behind them and been the executive accountable for delivering them, working alongside strong management teams and inspirational, driven founders. I've held more than 150 directorships, from group main boards to development and finance SPVs, including joint venture and investment entities, so I understand boards from both the executive and the oversight side. Some highlights from transactions I've led and worked on:</p>
-
-    <div class="stats">
-      <div class="stat"><b>£3bn+</b><span>GDV across 40+ site acquisitions</span></div>
-      <div class="stat"><b>c.£2bn</b><span>Development &amp; investment debt structured</span></div>
-      <div class="stat"><b>£1.5bn+</b><span>Institutional asset disposals</span></div>
-      <div class="stat"><b>150+</b><span>Directorships held across holding, operating, SPV, JV &amp; investment companies</span></div>
-    </div>
-
+    <div class="sec-head"><h2>Experience on every side of the table</h2><p class="lead">I've negotiated the deals, put capital behind them and been the executive accountable for delivering them, working alongside strong management teams and inspirational, driven founders. I've held more than 150 directorships, from group main boards to development and finance SPVs, including joint venture and investment entities, so I understand boards from both the executive and the oversight side.</p></div>
     <div class="roles">
-      <div class="role"><div class="num">I</div><div>
+      <div class="role"><div>
         <h3>A decade on the main board of Vita Group</h3>
         <p>As Executive Director and Chief Legal Officer I helped build a platform of 29 student buildings (11,000+ beds) in 17 cities across the UK and Spain, plus c.3,500 co-living and BTR units. Assets were sold to DWS, AXA, Mapletree, Savills IM and Morgan Stanley, and I set up and ran joint ventures with Bruntwood, Greater Manchester Pension Fund and Metrovacesa.</p>
       </div></div>
-      <div class="role"><div class="num">II</div><div>
+      <div class="role"><div>
         <h3>Group CEO of a PE-backed legal services group</h3>
         <p>At Beyond Law Group I led five brands, four of them regulated businesses, growing turnover and headcount significantly in FY26 through a buy-and-build strategy combining M&amp;A with organic growth across the group.</p>
       </div></div>
-      <div class="role"><div class="num">III</div><div>
+      <div class="role"><div>
         <h3>Select Property Group</h3>
         <p>Executive Director of a business that develops, sells and operates UK living-sector investments for funds, family offices and high-net-worth clients, through the delivery of market-leading residential brands. Select has transacted £1.82bn of UK investments.</p>
       </div></div>
-      <div class="role"><div class="num">IV</div><div>
+      <div class="role"><div>
         <h3>Stockport County FC</h3>
         <p>As Executive Director I was part of acquiring the club in non-league and professionalising it on and off the pitch, on its way to League One. It was a true &ldquo;learning on the job&rdquo; experience for me and quite a few of the team!</p>
       </div></div>
-      <div class="role"><div class="num">V</div><div>
+      <div class="role"><div>
         <h3>Seventeen years as a corporate and private equity lawyer</h3>
         <p>After starting out in 1997, I moved to DLA Piper, then became an Equity Partner at Halliwells, acting on private equity transactions, M&amp;A and joint ventures (often with a real estate or technology focus) in the UK and internationally. In a similar role at Shoosmiths I led the growth of the commercial division in Manchester, taking it from £1m to £11.5m turnover and from 30 to 150 people.</p>
       </div></div>
@@ -315,65 +377,9 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
   </div>
 </section>
 
-<section id="deals">
+<section id="approach" class="grey">
   <div class="wrap">
-    <div class="eyebrow">Selected transactions</div>
-    <h2>Deals in the public domain</h2>
-    <p class="lead">A sample of the Vita Group transactions I led and worked on, as reported at the time.</p>
-
-    <div class="deals">
-      <article class="deal">
-        <img class="deal-img" src="deal-circle-square.jpg" alt="Vita Living at Circle Square, Manchester" width="960" height="600" loading="lazy">
-        <div class="meta">2017 · Joint venture</div>
-        <h3>Circle Square BTR with GMPF</h3>
-        <p>Joint venture with Greater Manchester Pension Fund to deliver 683 build-to-rent homes on the former BBC site off Oxford Road.</p>
-        <div class="src"><a href="https://www.placenorthwest.co.uk/vita-group-gmpf-net-126m-refinancing-deal/" target="_blank" rel="noopener">Place North West &rarr;</a></div>
-      </article>
-      <article class="deal">
-        <img class="deal-img" src="deal-dws.jpg" alt="Vita Student First Street, Manchester" width="960" height="600" loading="lazy">
-        <div class="meta">2019 · Disposal</div>
-        <h3>£600m portfolio sale to DWS</h3>
-        <p>Eight Vita Student buildings with 3,198 beds in Manchester, Glasgow, Edinburgh, Leeds, Birmingham and Newcastle, with Vita retained as operator.</p>
-        <div class="src"><a href="https://www.placenorthwest.co.uk/manchester-student-blocks-sold-as-part-of-600m-portfolio/" target="_blank" rel="noopener">Place North West &rarr;</a></div>
-      </article>
-      <article class="deal">
-        <img class="deal-img" src="deal-mapletree.jpg" alt="Vita Student Portland Crescent, Leeds" width="960" height="600" loading="lazy">
-        <div class="meta">2021 · Disposal</div>
-        <h3>£165m+ sale to Mapletree</h3>
-        <p>Four student assets with 917 beds in Exeter, Bristol, Leeds and Nottingham, sold to Singapore's Mapletree Investments.</p>
-        <div class="src"><a href="https://www.mapletree.com.sg/newsroom/mapletree-acquires-portfolio-of-four-student-housing-assets-in-uk-2/" target="_blank" rel="noopener">Mapletree &rarr;</a></div>
-      </article>
-      <article class="deal">
-        <img class="deal-img" src="deal-lewisham.jpg" alt="Vita Student Lewisham Exchange, London" width="960" height="600" loading="lazy">
-        <div class="meta">2022 · Disposal</div>
-        <h3>Lewisham Exchange to AXA IM Alts</h3>
-        <p>Sale of Vita Student's 758-bed flagship London scheme, AXA IM Alts' first UK student accommodation acquisition.</p>
-        <div class="src"><a href="https://vitagroup.com/journal/vita-group-completes-sale-of-lewisham/" target="_blank" rel="noopener">Vita Group &rarr;</a></div>
-      </article>
-      <article class="deal">
-        <img class="deal-img" src="deal-madrid.jpg" alt="Vita Student residence in Madrid" width="960" height="600" loading="lazy">
-        <div class="meta">2022–24 · Joint venture &amp; finance</div>
-        <h3>Madrid with Metrovacesa &amp; Cain</h3>
-        <p>Joint venture with Spain's leading developer for Vita's flagship Madrid student residence, funded by a €74m construction loan from Cain International.</p>
-        <div class="src"><a href="https://metrovacesa.com/en/blog/metrovacesa-and-vita-group-partner-to-develop-an-iconic-student-residence-in-madrid" target="_blank" rel="noopener">Metrovacesa &rarr;</a><a href="https://realassets.ipe.com/propertyeu/cain-expands-lending-platform-to-spanish-market-with-74m-construction-loan/10111741.article" target="_blank" rel="noopener">IPE Real Assets &rarr;</a></div>
-      </article>
-      <article class="deal">
-        <img class="deal-img" src="deal-barcelona.jpg" alt="Vita Student Pedralbes, Barcelona" width="960" height="600" loading="lazy">
-        <div class="meta">2024 · Disposal</div>
-        <h3>Barcelona sale to Morgan Stanley</h3>
-        <p>Sale of Vita Student Pedralbes and Vita Student Poblenou, 624 beds in Barcelona, to a Morgan Stanley fund.</p>
-        <div class="src"><a href="https://www.iberian.property/news/residential/vita-group-sells-its-two-residences-in-barcelona-to-morgan-stanley-fund/" target="_blank" rel="noopener">Iberian Property &rarr;</a></div>
-      </article>
-    </div>
-    <p class="note">Links go to third-party press coverage.</p>
-  </div>
-</section>
-
-<section id="approach" class="white">
-  <div class="wrap">
-    <div class="eyebrow">How I work</div>
-    <h2>What you can expect</h2>
-    <p class="lead">Clients bring me in when the stakes are high and the answer isn't obvious. These are the four things they tend to value.</p>
+    <div class="sec-head"><h2>What you can expect</h2><p class="lead">Clients bring me in when the stakes are high and the answer isn't obvious. These are the four things they tend to value.</p></div>
 
     <div class="values">
       <div class="value">
@@ -400,8 +406,7 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
   <div class="wrap">
     <div class="about">
       <div>
-        <div class="eyebrow">About</div>
-        <h2>Mark Dawson</h2>
+                <h2>Mark Dawson</h2>
         <p>For more than a decade I've worked in executive and board roles. Most recently I was Managing Director and then Group CEO of Beyond Law Group, a private equity-backed portfolio of five professional services brands, where turnover and headcount grew significantly in FY26.</p>
         <p>Before that I spent ten years on Vita Group's main board as Executive Director and Chief Legal Officer. My role combined group leadership with investment: strategy, acquisitions, funding, joint ventures, governance and exits across Vita Student, Vita Living, CitySuites, Union, Affinity Living and Symphony Park, with parallel roles at Select Property Group and Stockport County FC. I led group functions spanning legal, compliance, risk and people, and ran the external legal, agency and funding teams on the group's major transactions.</p>
         <p>As a qualified solicitor, I still hold a current practising certificate. I spent the first part of my career as a corporate and private equity lawyer, including at DLA Piper, before becoming an Equity Partner at both Halliwells and Shoosmiths. That background means I can take a transaction from first structure to completion, on both the commercial and the legal side, and get the best from the lawyers and advisers working on it.</p>
@@ -412,7 +417,7 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
         <img src="mark-dawson.jpg" alt="Mark Dawson" width="400" height="400">
         <h3>Mark Dawson</h3>
         <div class="title">Founder</div>
-        <div class="eyebrow">Career</div>
+        <h4>Career</h4>
         <ul class="career">
           <li><b>Group CEO &amp; MD</b><span>Beyond Law Group</span></li>
           <li><b>Executive Director &amp; CLO</b><span>Vita Group</span></li>
@@ -440,10 +445,12 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
 </section>
 
 <section id="contact" class="contact">
-  <div class="wrap">
-    <div class="contact-box">
-      <h2>Start a conversation</h2>
-      <p>Whether it's a deal, a UK presence to build, a board that needs experience or a business you need help leading, let's have a conversation about what you're trying to achieve.</p>
+  <div class="contact-box">
+    <div class="wrap contact-grid">
+      <div>
+        <h2>Start a conversation</h2>
+        <p>Whether it's a deal, a UK presence to build, a board that needs experience or a business you need help leading, let's have a conversation about what you're trying to achieve.</p>
+      </div>
       <div class="contact-links">
         <a class="btn btn-solid" href="mailto:mark@silklandsadvisory.co.uk">Email me <span aria-hidden="true">&rarr;</span></a>
         <a class="addr" href="mailto:mark@silklandsadvisory.co.uk">mark@silklandsadvisory.co.uk</a>
@@ -458,7 +465,7 @@ footer{background:var(--green);color:var(--on-dark-soft);padding:36px 0 40px}
 <footer>
   <div class="wrap">
     <div class="foot-top">
-      <a class="brand" href="#top"><img src="logo.png" alt="" width="26" height="28">Silklands <span>Advisory</span></a>
+      <a class="brand" href="#top"><img src="logo-light.png" alt="" width="30" height="32">Silklands <span>Advisory</span></a>
       <a class="li-link" href="https://www.linkedin.com/in/mark-dawson-39136815/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.220 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.230.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>
       <small>&copy; <span id="yr">2026</span> Silklands Capital Limited</small>
     </div>
